@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Recyclingform</title>
+<link rel= "stylesheet" href="recycling.css">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav>
+        <ul> 
+            
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="Gallery.html"> Gallery </a> </li>
+            <li> <a href="Statistics.html"> Statistics </a> </li>
+            <li> <a href="Recyclingform.html" id="active"> Form </a> </li>
+        
+        
+        </ul>
+
+        
+        </nav>
+<form name="Recyclingform" id="Recyclingform">
+    <fieldset>
+    <legend> Do you recycle?</legend>
+    <input id="Yes" type="radio" name="Recycling" value= "Yes"> 
+    <label for="Yes"> Yes </label>
+    <br>
+    <input id="No" type="radio" name="Recycling" value="No"> 
+    <label for="No"> No </label>
+    <br>
+    <input id="Sometimes" type="radio" name="Recycling" value="Sometimes"> 
+    <label for="Sometimes"> Sometimes </label>
+    
+    
+    </fieldset>
+    <fieldset>
+    <legend> What do you recycle?</legend>
+    <input id="Plastics" type="checkbox" name="Type" value="Plastics"> 
+    <label for=" Plastics"> Plastics </label>
+    <br>
+    <input id="Paper" type="checkbox" name="Type" value="Paper"> 
+    <label for=" Paper"> Paper </label>
+    <br>
+    <input id="General waste" type="checkbox" name="Type" value="General waste"> 
+    <label for=" General waste"> General waste </label>
+    <br>
+    <input id="Everything" type="checkbox" name="Type" value="Everything"> 
+    <label for=" Everything"> Everything </label>
+    </fieldset>
+    
+    <label for="url"> Enter your photo url </label>
+    <input id="url" type="text" name="photourl">
+    <input type="button" value="submit" onclick="saveFile()">
+    
+    
+    </form>
+
+
+
+
+
+
+
+</form>
+
+</body>
+
+
+
+
+</html>
